@@ -1,5 +1,5 @@
 {% set name = "fileseq" %}
-{% set version = "2.1.0" %}
+{% set version = "2.1.1" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/Fileseq-{{ version }}.tar.gz
-  sha256: ed5ffae34b28dd7819f20dd1c4086c7f2c7b365714e78ae9a8d825ceb34109f4
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: bda13864bf7a602013eb1f485230eb1963c449a49f10572dbde7fd425ed17119
 
 build:
   number: 0
@@ -20,7 +20,6 @@ requirements:
     - pip
     - python >=3.6
   run:
-    - typing-extensions
     - python >=3.6
 
 test:
