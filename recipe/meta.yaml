@@ -1,5 +1,5 @@
 {% set name = "fileseq" %}
-{% set version = "2.2.0" %}
+{% set version = "2.2.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 57aa0a3839347714b3e56445501fce9237c0a822455640f965caaadeed1f69e5
+  sha256: f63bdbbca3d647c441097e07909e11ff3a3b2ea600eee9e31b624cced566661c
 
 build:
   number: 0
